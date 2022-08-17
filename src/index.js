@@ -16,6 +16,9 @@ app.use('/posts', postRoutes);
 app.use("/user", userRouter);
 
 //const CONNECTION_URL = 'mongodb+srv://shubham:echo1234@echo.pbzqqbp.mongodb.net/?retryWrites=true&w=majority'
+app.get('/', (req, res) => {
+    res.send('app is running');
+});
 
 connect();
 
