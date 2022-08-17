@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 
-import PostMessage from '../models/postMessage';
+import PostMessage from '../models/posts.js';
 
 const router = express.Router();
 
